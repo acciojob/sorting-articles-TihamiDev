@@ -9,7 +9,7 @@ function strip(str){
 	return str
 }
 
-bands.sort((a,b) = > {
+bands.sort((a,b) => {
 	return strip(a).localeCompare(strip(b));
 }
 let ul = document.getElementById("bands");
