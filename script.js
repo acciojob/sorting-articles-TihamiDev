@@ -11,12 +11,12 @@ function strip(str){
 
 bands.sort((a,b) => {
 	return strip(a).localeCompare(strip(b));
-}
+});
 let ul = document.getElementById("bands");
 
-bands.forEach(band)=>{
+bands.forEach((band) => {
 	let li = document.createElement("li");
 	li.textContent = band;
 	ul.appendChild(li);
-}
+});
 
